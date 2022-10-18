@@ -46,15 +46,15 @@ math: katex
 
 <!-- _backgroundColor: aquq -->
 
-<!-- _color: orange -->
+<!-- _color: red -->
 
 <!-- paginate: false -->
 
-## Sample Course Name
+## First Step to Python Programming
 
-### Week-1 (Sample Course Module Name)
+### Week-1 (How to Use Python: Your First Steps)
 
-#### Spring Semester, 20XX-20XX
+#### Spring Semester, 2022-2023
 
 Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](week-1.en.md_slide.pptx)
 
@@ -66,164 +66,99 @@ Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](we
 
 ### Outline
 
-- Sample Outline
-- Sample Outline
-- Sample Outline
-- Sample Outline
+- What Python is and why you should use it
+- How to Download and Install Python
+- The Basic Python Syntax
+
 
 ---
 
-## **Sample Topic**
+## **First Step to Python Programming**
 
 ---
 
-### Sample Topic
+### First Step to Python Programming
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  - when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    - but also the leap into electronic typesetting, remaining essentially unchanged. 
-      - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+- **Why You Should Use Python**
+Python, named after the British comedy group Monty Python, is a high-level, interpreted, interactive, and object-oriented programming language. Its flexibility allows you to do many things, both big and small. With Python, you can write basic programs and scripts and also to create complex and large-scale enterprise solutions
+  - You can find Python everywhere in the world of computer programming. For example, Python is the foundation of some of the world’s most popular websites, including Reddit, Dropbox, and YouTube, to name a few. The Python web framework Django powers both Instagram and Pinterest. 
 
 ---
 
-### Sample Images-1
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
-![center h:400px](assets/sample-1.png)
+- **Compared to other programming languages, Python has the following features:**
+
+Interpreted: It’s portable and quicker to experiment with than compiled languages.
+Multiparadigm: It lets you write code in different styles, including object-oriented, imperative, and functional style.
+Dynamically typed: It checks variable types at runtime, so you don’t need to declare them explicitly.
+Strongly typed: It won’t let unsafe operations on incompatible types go unnoticed.
+
+
+
+
+![center h:325px](assets/en-populer-programlama-dili-python-oldu-techinside-730x480%20(1).jpg)
+
+---
+There’s a lot more to learn about Python. But by now, you should have a better idea of why Python is so popular and why you should consider learning to program with it.
+
+
+- **How to Download and Install Python:**
+Python works on Linux, Mac, Windows, and several other platforms. It comes preinstalled on macOS and on most Linux distributions. However, if you want to be up to date, then you probably need to download and install the latest version. 
+
+![bg right:50% h:300px](assets/python.jpg)
 
 ---
 
-### Sample Images-2
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+**To check what Python version has been installed globally in your operating system, open the terminal or command line and run the following command:**
+This command prints the version of your system’s default Python 3 installation. Note that you use python3 instead of python because some operating systems still include Python 2 as their default Python installation.
 
-![bg right:50% h:400px](assets/sample-1.png)
 
----
 
-### Sample Images-3
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:400px](assets/sample-1.png)
+![bg left:50% h:80px](assets/How%20to%20Use%20Python_%20Your%20First%20Steps%20%E2%80%93%20Real%20Python%20-%20Google%20Chrome%2018.10.2022%2018_07_44.png)
 
 ---
 
-### Sample Images-4
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
-![bg h:400px](assets/sample-1.png)
 
----
 
-### Sample Images-5
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg h:px](assets/python.png)
 
 ---
 
-### Sample Images-6
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **The Basic Python Syntax:**
+The Python syntax is clear, concise, and focused on readability. Readability is arguably one of the more attractive features of the language itself. It makes Python ideal for people who are learning to program. In this section, you’ll learn about several important components of the Python syntax:
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
 
----
 
-###  Latex Sample-1
 
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+
+![bg left:50% h:400px](assets/4c3f773df01c4ca71849ea0814b62c4adfa142dc.webp)
 
 ---
 
-### Latex Sample-2
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+- **COMMENTS:**
+Comments are pieces of text that live in your code but are ignored by the Python interpreter as it executes the code. You can use comments to describe the code so that you and other developers can quickly understand what the code does or why the code is written in a given way. To write a comment in Python, just add a hash mark (#) before your comment text:
+
+
+![bg left:50% h:80px](assets/6.png)
 
 ---
 
-**TODO** UPDATE CONTENT FOR YOUR COURSE NOTES
+**SEE YOU NEXT LESSON :)**
 
 --- 
 
 ## References
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
+- https://realpython.com/python-first-steps/#the-basic-python-syntax
+- https://www.techinside.com/en-populer-programlama-dili-python-oldu/
+- https://www.abakuskitap.com/blog/icerik/python-ile-ne-yapabilirsiniz-pythonin-3-temel-kullanim-alani
+- https://www.fiverr.com/fatihagirtmis/do-python-programming-for-you
 
 
 ---

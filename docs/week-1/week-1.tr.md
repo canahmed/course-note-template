@@ -50,11 +50,11 @@ math: katex
 
 <!-- paginate: false -->
 
-## Örnek Ders Adı
+## Python Programlamaya İlk Adım
 
-### Hafta-1 (Örnek Ders Modülü Adı)
+### Hafta-1 (Python Nasıl Kullanılır: İlk Adımlarınız)
 
-#### Bahar Dönemi, 20XX-20XX
+#### Bahar Dönemi, 2022-2023
 
 İndir [DOC](week-1.tr.md_doc.pdf), [SLIDE](week-1.tr.md_slide.pdf), [PPTX](week-1.tr.md_slide.pptx)
 
@@ -66,149 +66,79 @@ math: katex
 
 ### Anahat
 
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
+- Python nedir ve neden kullanmalısınız?
+- Python Nasıl İndirilir ve Kurulur?
+- Temel Python Sözdizimi
 
 ---
 
-## **Örnek Konu**
+## **Python Programlamaya İlk Adım**
 
 ---
 
-### Örnek Konu
+### Python Programlamaya İlk Adım
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-   - bilinmeyen bir matbaacı bir tür kadırga alıp onu bir tip numune kitabı yapmak için karıştırdığında. Sadece beş yüzyıl hayatta kalmadı,
-     - ama aynı zamanda, esasen değişmeden kalan elektronik dizgiye geçiş.
-       - 1960'larda Lorem Ipsum pasajları içeren Letraset sayfalarının yayınlanmasıyla ve daha yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümlerini içeren masaüstü yayıncılık yazılımlarıyla popüler hale geldi.
+- **Neden Python Kullanmalısınız?**
+Adını İngiliz komedi grubu Monty Python'dan alan Python, üst düzey, yorumlanmış, etkileşimli ve nesne yönelimli bir programlama dilidir. Esnekliği, hem büyük hem de küçük birçok şeyi yapmanızı sağlar. Python ile temel programlar ve komut dosyaları yazabilir ve ayrıca karmaşık ve büyük ölçekli kurumsal çözümler oluşturabilirsiniz.
+   - Bilgisayar programlama dünyasının her yerinde Python'u bulabilirsiniz. Örneğin Python, Reddit, Dropbox ve YouTube gibi dünyanın en popüler web sitelerinden bazılarının temelidir. Python web çerçevesi Django, hem Instagram'a hem de Pinterest'e güç sağlar.
 ---
 
-### Örnek Resimler-1
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
 
-![center h:400px](assets/sample-1.png)
+- **Python, diğer programlama dilleriyle karşılaştırıldığında aşağıdaki özelliklere sahiptir:**
+Yorumlandı: Derlenmiş dillerden daha taşınabilir ve denemesi daha hızlıdır.
+Multiparadigma: Nesne yönelimli, zorunlu ve işlevsel stil dahil olmak üzere farklı stillerde kod yazmanıza olanak tanır.
+Dinamik olarak yazılmış: Değişken türlerini çalışma zamanında kontrol eder, bu nedenle bunları açıkça bildirmeniz gerekmez.
+Güçlü bir şekilde yazılmış: Uyumsuz türlerde güvenli olmayan işlemlerin fark edilmemesine izin vermez.
 
----
-
-### Örnek Resimler-2
-
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg right:50% h:400px](assets/sample-1.png)
+![center h:300px](assets/en-populer-programlama-dili-python-oldu-techinside-730x480%20(1).jpg)
 
 ---
+Python, Linux, Mac, Windows ve diğer birçok platformda çalışır. MacOS'ta ve çoğu Linux dağıtımında önceden yüklenmiş olarak gelir. Ancak, güncel olmak istiyorsanız, muhtemelen en son sürümü indirip yüklemeniz gerekir.
 
-### Örnek Resimler-3
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+- **Python Nasıl İndirilir ve Kurulur:**
+Python, Linux, Mac, Windows ve diğer birçok platformda çalışır. MacOS'ta ve çoğu Linux dağıtımında önceden yüklenmiş olarak gelir. Ancak, güncel olmak istiyorsanız, muhtemelen en son sürümü indirip yüklemeniz gerekir.
 
-![bg left:50% h:400px](assets/sample-1.png)
+![bg right:50% h:400px](assets/python.jpg)
 
 ---
 
-### Örnek Resimler-4
+**İşletim sisteminizde genel olarak hangi Python sürümünün kurulu olduğunu kontrol etmek için terminali veya komut satırını açın ve aşağıdaki komutu çalıştırın:**
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+Bu komut, sisteminizin varsayılan Python 3 kurulumunun sürümünü yazdırır. Bazı işletim sistemleri varsayılan Python yüklemeleri olarak Python 2'yi içerdiğinden, python yerine python3 kullandığınızı unutmayın.
 
-![bg h:400px](assets/sample-1.png)
-
----
-
-### Örnek Resimler-5
-
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg left:50% h:80px](assets/How%20to%20Use%20Python_%20Your%20First%20Steps%20%E2%80%93%20Real%20Python%20-%20Google%20Chrome%2018.10.2022%2018_07_44.png)
 
 ---
 
-### Örnek Resimler-6
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
+
+![bg h:px](assets/python.png)
 
 ---
 
-###  Latex Örneği-1
 
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+- **Temel Python Sözdizimi:**
+Python sözdizimi açık, özlü ve okunabilirliğe odaklanmıştır. Okunabilirlik, tartışmasız dilin kendisinin daha çekici özelliklerinden biridir. Python'u programlamayı öğrenen insanlar için ideal kılar. Bu bölümde Python sözdiziminin birkaç önemli bileşeni hakkında bilgi edineceksiniz:
+
+
+![bg left:50% h:500px](assets/4c3f773df01c4ca71849ea0814b62c4adfa142dc.webp)
 
 ---
 
-### Latex Örneği-2
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+
+- **YORUMLAR:**
+Yorumlar, kodunuzda yaşayan ancak kodu yürütürken Python yorumlayıcısı tarafından yok sayılan metin parçalarıdır. Siz ve diğer geliştiriciler, kodun ne yaptığını veya kodun neden belirli bir şekilde yazıldığını hızlı bir şekilde anlayabilmeniz için kodu açıklamak için yorumları kullanabilirsiniz. Python'da yorum yazmak için yorum metninizin önüne bir kare işareti (#) eklemeniz yeterlidir:
+
+
+![bg left:50% h:80px](assets/6.png)
+
+---
+
+**BİRDAHAKİ DERS GÖRÜŞMEK ÜZERE:)**
 
 ---
 
@@ -218,13 +148,10 @@ $$
 
 ## Referanslar
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
+- https://realpython.com/python-first-steps/#the-basic-python-syntax
+- https://www.techinside.com/en-populer-programlama-dili-python-oldu/
+- https://www.abakuskitap.com/blog/icerik/python-ile-ne-yapabilirsiniz-pythonin-3-temel-kullanim-alani
+- https://www.fiverr.com/fatihagirtmis/do-python-programming-for-you
 
 
----
 
-$End-Of-Week-1-Module$

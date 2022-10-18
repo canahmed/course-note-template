@@ -66,164 +66,89 @@ math: katex
 
 ### Anahat
 
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
+- Bilgisayar Donanımı Listesi
+- Arızalı Bilgisayar Donanımında Sorun Giderme
+- Donanım ve Yazılım
 
 ---
 
-## **Örnek Konu**
+## **Bilgisayar Donanımına Giriş**
 
 ---
 
-### Örnek Konu
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-   - bilinmeyen bir matbaacı bir tür kadırga alıp onu bir tip numune kitabı yapmak için karıştırdığında. Sadece beş yüzyıl hayatta kalmadı,
-     - ama aynı zamanda, esasen değişmeden kalan elektronik dizgiye geçiş.
-       - 1960'larda Lorem Ipsum pasajları içeren Letraset sayfalarının yayınlanmasıyla ve daha yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümlerini içeren masaüstü yayıncılık yazılımlarıyla popüler hale geldi.
----
 
-### Örnek Resimler-1
+ ### Bilgisayar donanımı
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+- Bilgisayar donanımı, bir bilgisayar sistemini oluşturan fiziksel bileşenleri ifade eder.
 
-![center h:400px](assets/sample-1.png)
+Bir bilgisayarın içine kurulabilen ve dışına bağlanabilen birçok farklı donanım türü vardır.
+
+Bilgisayar donanımı bazen bilgisayar hw olarak kısaltılmış olarak görülebilir.
 
 ---
 
-### Örnek Resimler-2
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+- Bilgisayar Donanımı Listesi:
+Modern bir bilgisayarın içinde sıklıkla bulacağınız bazı yaygın bireysel bilgisayar donanımı bileşenleri aşağıda verilmiştir. Bu parçalar neredeyse her zaman bilgisayar kasasının içinde bulunur, bu nedenle bilgisayarı açmadığınız sürece bunları göremezsiniz: Anakart, Merkezi İşlem Birimi (CPU), Rastgele Erişim, Bellek (RAM), Güç Kaynağı Birimi (PSU), Ekran kartı, Sabit Disk, Sürücü (HDD), Katı Hal Sürücüsü (SSD), Optik disk sürücüsü (ör. BD /DVD/CD sürücüsü), Kart okuyucu (SD/SDHC, CF)
 
-![bg right:50% h:400px](assets/sample-1.png)
-
----
-
-### Örnek Resimler-3
-
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg left:50% h:400px](assets/sample-1.png)
+![center h:400px](assets/computer-hardware-2625895-5d9007ac0d44404588321d255fc82049.webp)
 
 ---
 
-### Örnek Resimler-4
+- Birçok tablet, dizüstü bilgisayar ve netbook bu öğelerin bazılarını muhafazalarına entegre etmesine rağmen, bilgisayarın dışına bağlı bulabileceğiniz ortak donanım:
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+monitör
+Tuş takımı
+Fare
+Kesintisiz Güç Kaynağı (UPS)
+Flaş sürücü
+Yazıcı
+Hoparlörler
+Harici disk
+Kalem tableti
 
-![bg h:400px](assets/sample-1.png)
-
----
-
-### Örnek Resimler-5
-
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg right:50% h:300px](assets/maxresdefault.jpg)
 
 ---
 
-### Örnek Resimler-6
+- Daha az yaygın olan bireysel bilgisayar donanım aygıtları, bu parçalar artık genellikle diğer aygıtlara entegre edildiğinden veya daha yeni teknolojilerle değiştirildiğinden:
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+Ses kartı, Ağ Arabirim Kartı (NIC), Genişletme kartı (FireWire, USB, vb.), Sabit sürücü denetleyici kartı, Analog modem, Tarayıcı, Projektör, Disket sürücü, Joystick, Web kamerası, Mikrofon, Teyp sürücüsü, Zip sürücüsü
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
+![bg left:50% h:300px](assets/Computer-hardware-components.jpg)
 
 ---
 
-###  Latex Örneği-1
 
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+
+![bg h:400px](assets/Computer-hardware-components.jpg)
 
 ---
 
-### Latex Örneği-2
+- **Arızalı Bilgisayar Donanımında Sorun Giderme:**
+Bilgisayar donanımı bileşenleri, kullanıldıkça ve kullanılmadıkça ayrı ayrı ısınır ve soğur, bu da eninde sonunda her birinin arızalanacağı anlamına gelir. Hatta bazıları aynı anda başarısız olabilir. Neyse ki, en azından masaüstü bilgisayarlar ve bazı dizüstü ve tablet bilgisayarlarda, çalışmayan donanım parçasını bilgisayarı sıfırdan değiştirmek veya yeniden oluşturmak zorunda kalmadan değiştirebilirsiniz.
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+![bg left:50% h:300px](assets/indir.jfif)
 
 ---
 
-**YAPILACAKLAR** KURS NOTLARINIZ İÇİN İÇERİĞİ GÜNCELLEME
+- **Donanım ve Yazılım**
+Donanımdan farklı bir yazılım da olmadıkça bir bilgisayar sistemi tam değildir. Yazılım, bir işletim sistemi veya donanım üzerinde çalışan bir video düzenleme aracı gibi elektronik olarak depolanan verilerdir. Donanım adını, söz konusu değişiklik olduğunda katı olduğu gerçeğinden alır, oysa yazılım daha esnektir (yani, yazılımı kolayca yükseltebilir veya değiştirebilirsiniz). Firmware de donanım ve yazılımla yakından ilgilidir... 
+
+![bg left:50% h:500px](assets/indir%20(1).jfif)
+
+---
+
+BİR SONRAKİ DERSTE GÖRÜŞMEK ÜZERE :)
 
 --- 
 
 ## Referanslar
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
-
+- https://www.lifewire.com/computer-hardware-2625895
+- https://www.youtube.com/watch?v=SSnNY8GfZig
+- https://mycomputernotes.com/what-is-computer-hardware/
 
 ---
 

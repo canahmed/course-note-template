@@ -50,11 +50,11 @@ math: katex
 
 <!-- paginate: false -->
 
-## Sample Course Name
+## Computer Hardware
 
-### Week-2 (Sample Course Module Name)
+### Week-2 (Computer Hardware)
 
-#### Spring Semester, 20XX-20XX
+#### Spring Semester, 2022-2023
 
 Download [DOC](week-2.en.md_doc.pdf), [SLIDE](week-2.en.md_slide.pdf), [PPTX](week-2.en.md_slide.pptx)
 
@@ -66,165 +66,95 @@ Download [DOC](week-2.en.md_doc.pdf), [SLIDE](week-2.en.md_slide.pdf), [PPTX](we
 
 ### Outline
 
-- Sample Outline
-- Sample Outline
-- Sample Outline
-- Sample Outline
+- List of Computer Hardware
+- Troubleshooting Faulty Computer Hardware
+- Hardware vs. Software
 
 ---
 
-## **Sample Topic**
+## **Introduction to Computer Hardware**
 
 ---
 
-### Sample Topic
+### Computer Hardware
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  - when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    - but also the leap into electronic typesetting, remaining essentially unchanged. 
-      - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+- Computer hardware refers to the physical components that make up a computer system.
 
----
+There are many different kinds of hardware that can be installed inside, and connected to the outside, of a computer.
 
-### Sample Images-1
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![center h:400px](assets/sample-1.png)
+Computer hardware may sometimes be seen abbreviated as computer hw. 
 
 ---
 
-### Sample Images-2
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
-![bg right:50% h:400px](assets/sample-1.png)
+- List of Computer Hardware:
+Here are some common individual computer hardware components that you'll often find inside a modern computer. These parts are almost always found inside the computer case, so you won't see them unless you open the computer:
 
----
+Motherboard, Central Processing Unit (CPU), Random Access, Memory (RAM), Power Supply Unit (PSU), Video card ,Hard Disk, Drive (HDD), Solid-State Drive (SSD), Optical disk drive (e.g., BD/DVD/CD drive), Card reader (SD/SDHC, CF, etc.)
 
-### Sample Images-3
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:400px](assets/sample-1.png)
+![center h:400px](assets/computer-hardware-2625895-5d9007ac0d44404588321d255fc82049.webp)
 
 ---
 
-### Sample Images-4
+- Common hardware that you might find connected to the outside of a computer, although many tablets, laptops, and netbooks integrate some of these items into their housings:
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+Monitor
+Keyboard
+Mouse
+Uninterruptible Power Supply (UPS)
+Flash drive
+Printer
+Speakers
+External hard drive
+Pen tablet
 
-![bg h:400px](assets/sample-1.png)
-
----
-
-### Sample Images-5
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg right:50% h:350px](assets/maxresdefault.jpg)
 
 ---
 
-### Sample Images-6
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- Less common individual computer hardware devices, either because these pieces are now usually integrated into other devices or because they've been replaced with newer technology:
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
+Sound card, Network Interface Card (NIC), Expansion card (FireWire, USB, etc.), Hard drive controller card, Analog modem, Scanner, Projector, Floppy disk drive, Joystick, Webcam, Microphone, Tape drive, Zip drive
 
----
-
-###  Latex Sample-1
-
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+![bg left:50% h:300px](assets/Computer-hardware-components.jpg)
 
 ---
 
-### Latex Sample-2
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+
+![bg h:700px](assets/computer_hardware.jpg)
 
 ---
 
-**TODO** UPDATE CONTENT FOR YOUR COURSE NOTES
 
+
+- **Troubleshooting Faulty Computer Hardware:**
+Computer hardware components individually heat up and cool down as they're used and then not used, meaning that eventually, every single one will fail. Some may even fail at the same time. Fortunately, at least with desktop computers and some laptop and tablet computers, you can replace the non-working piece of hardware without having to replace or rebuild the computer from scratch. 
+
+
+![bg left:50% h:400px](assets/indir.jfif)
+
+---
+
+
+- **Hardware vs. Software**
+A computer system isn't complete unless there's also software, which is different than hardware. The software is data that's stored electronically, like an operating system or a video editing tool, which runs on the hardware. Hardware gets its name due to the fact that it's strict when it comes to modifications, whereas software is more flexible (i.e., you can easily upgrade or change software). Firmware is closely related to hardware and software, too...
+
+
+![bg left:50% h:600px](assets/indir%20(1).jfif)
+
+---
+
+###  SEE YOU NEXT LESSON :)
 --- 
 
 ## References
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
-
+- https://www.lifewire.com/computer-hardware-2625895
+- https://www.youtube.com/watch?v=SSnNY8GfZig
+- https://mycomputernotes.com/what-is-computer-hardware/
 
 ---
 
